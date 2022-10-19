@@ -30,12 +30,14 @@ namespace UniversalFtpServer
             {
                 {"Retroarch","retroarch.cfg"},
                 {"DuckStation","settings.ini"},
-                {"Flycast", "emu.cfg"}
+                {"Flycast", "emu.cfg"},
             };
             Dictionary<string, string> directoryPatterns = new Dictionary<string, string>()
             {
                 {"PPSSPP", "PSP"},
-                {"PCSX2", "cheats_ws"}
+                {"PCSX2", "cheats_ws"},
+                {"XBSX2", "widescreenpatches"},
+                {"Minecraft", "games"}
             };
 
             foreach (string name in filePatterns.Keys)
